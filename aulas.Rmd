@@ -1,0 +1,144 @@
+---
+title: "Programação Estatística I"
+subtitle: "Programando em C++"
+author: "Prof. Dr. Pedro Rafael D. Marinho"
+institute: "Departamento de Estatística - UFPB"
+date: '</br>`r format(Sys.time(), "%d de %B de %Y")`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["tema.css", "xaringan-themer.css", "animate.css"]
+    nature:
+      highlightStyle: github
+      ratio: "16:9"
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r xaringan-themer, include = FALSE}
+# install.packages(c("xaringan", "devtools"))
+# devtools::install_github("gadenbuie/xaringanthemer")
+library(xaringanthemer)
+mono_dark(
+  base_color = "#FF7100",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Barlow", "400", "400i"),
+  code_font_google   = google_font("Droid Mono"),
+)
+```
+
+
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+
+# Contato / Redes Sociais do DE
+
+</br>
+</br>
+
+[`r icon::fa("link")` **Site do Departamento**: **http://www.de.ufpb.br/**](http://www.de.ufpb.br/)  
+[`r icon::fa("paper-plane")` **E-mail do professor: pedro.rafael.marinho@gmail.com**](mailto:pedro.rafael.marinho@gmail.com)</br>
+[`r icon::fa("instagram")` **@estatisticaufpb**](https://www.instagram.com/estatisticaufpb/)  
+[`r icon::fa("twitter")` **@estatisticaufpb**](https://twitter.com/estatisticaufpb)  
+[`r icon::fa("github")` **@de-ufpb**](https://github.com/de-ufpb)  
+
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Algumas informações úteis sobre o professor
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Informações sobre o professor
+
+--
+
+.font120[Me chamo [**Pedro Rafael Diniz Marinho**](https://sigaa.ufpb.br/sigaa/public/docente/portal.jsf?siape=1222560) e sou docente do [**Departamento de Estatística da UFPB**](http://www.de.ufpb.br/) desde o ano de 2016.] 
+
+--
+
+</br>
+
+.font150[**Minha Formação**]
+
+
+--
+
+Toda minha formação é na estatística (bacharelado, mestrado e doutorado). 
+
+--
+
+.font150[**Minha Sala**]
+
+A minha sala é a de número **12** (última sala do corredor do DE, lado direito de quem entra).
+
+
+--
+
+.font150[**Meu e-mail que mais utilizo**]
+
+Para entrar em contato comigo utilize, de preferência, o e-mail **pedro.rafael.marinho@gmail.com**.
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# SIGAA
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+### Acesse o SIGAA com frequência
+
+--
+
+Todo o plano de curso da disciplina encontra-se registrado no SIGAA. 
+
+--
+
+Tudo o que for de relevante para o curso será registrado no SIGAA. Dessa forma, é de total responsabilidade do aluno(a) se manter atualizado sobre tudo aquilo que for registrado no sistema.
+
+--
+
+As datas de todas as avaliações já encontram-se registrada no SIGAA mas poderão sofrer alterações. Dessa forma, acesse essa disciplina no SIGAA ao menos duas vezes por semana para se manter atualizado.
+
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Sobre a disciplina
+ 
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Acesse preriodicamente o SIGAA
+
+
+
+### 
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+class: middle, center
+
+.jackInTheBox.animated[
+# Obrigado pela sua atenção!
+]

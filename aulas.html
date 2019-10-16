@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Programação Estatística I</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Dr. Pedro Rafael D. Marinho" />
+    <link href="libs/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="tema.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Programação Estatística I
+## Programando em C++
+### Prof. Dr. Pedro Rafael D. Marinho
+### Departamento de Estatística - UFPB
+### </br>15 de outubro de 2019
+
+---
+
+
+
+
+
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+
+# Contato / Redes Sociais do DE
+
+&lt;/br&gt;
+&lt;/br&gt;
+
+[<i class="fas  fa-link "></i> **Site do Departamento**: **http://www.de.ufpb.br/**](http://www.de.ufpb.br/)  
+[<i class="fas  fa-paper-plane "></i> **E-mail do professor: pedro.rafael.marinho@gmail.com**](mailto:pedro.rafael.marinho@gmail.com)&lt;/br&gt;
+[<i class="fab  fa-instagram "></i> **@estatisticaufpb**](https://www.instagram.com/estatisticaufpb/)  
+[<i class="fab  fa-twitter "></i> **@estatisticaufpb**](https://twitter.com/estatisticaufpb)  
+[<i class="fab  fa-github "></i> **@de-ufpb**](https://github.com/de-ufpb)  
+
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Algumas informações úteis sobre o professor
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Informações sobre o professor
+
+--
+
+.font120[Me chamo [**Pedro Rafael Diniz Marinho**](https://sigaa.ufpb.br/sigaa/public/docente/portal.jsf?siape=1222560) e sou docente do [**Departamento de Estatística da UFPB**](http://www.de.ufpb.br/) desde o ano de 2016.] 
+
+--
+
+&lt;/br&gt;
+
+.font150[**Minha Formação**]
+
+
+--
+
+Toda minha formação é na estatística (bacharelado, mestrado e doutorado). 
+
+--
+
+.font150[**Minha Sala**]
+
+A minha sala é a de número **12** (última sala do corredor do DE, lado direito de quem entra).
+
+
+--
+
+.font150[**Meu e-mail que mais utilizo**]
+
+Para entrar em contato comigo utilize, de preferência, o e-mail **pedro.rafael.marinho@gmail.com**.
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# SIGAA
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+### Acesse o SIGAA com frequência
+
+--
+
+Todo o plano de curso da disciplina encontra-se registrado no SIGAA. 
+
+--
+
+Tudo o que for de relevante para o curso será registrado no SIGAA. Dessa forma, é de total responsabilidade do aluno(a) se manter atualizado sobre tudo aquilo que for registrado no sistema.
+
+--
+
+As datas de todas as avaliações já encontram-se registrada no SIGAA mas poderão sofrer alterações. Dessa forma, acesse essa disciplina no SIGAA ao menos duas vezes por semana para se manter atualizado.
+
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Sobre a disciplina
+ 
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Acesse preriodicamente o SIGAA
+
+
+
+### 
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+class: middle, center
+
+.jackInTheBox.animated[
+# Obrigado pela sua atenção!
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"ratio": "16:9",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
