@@ -262,13 +262,142 @@ knitr::include_graphics("img/amem.gif")
 
 .pull-left[
 .fadeInLeft.animated[
-```{r, echo=FALSE,out.width="350px", out.height="230px",fig.cap="Louvemos .. ",fig.show='hold',fig.align='left'}
+```{r, echo=FALSE,out.width="350px", out.height="230px",fig.cap="",fig.show='hold',fig.align='left'}
 knitr::include_graphics("img/igreja_louvor.gif")
 ```
 ]]
 
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Motivos para programar em C++
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Programar em C++
+
+--
+
+.font150[**Abaixo elenco alguns motivos para você programar em C++:**]
+
+</br>
+
+--
+
+  1. C++ é uma linguagem de programação extremamente eficiente;
+ 
+  2. Diversas outras linguagens de programação foram programadas utilizando C/C++;
+  
+  3. Na estatísticas muitas vezes necessitamos implementar códigos efientes, uma vez que muitas simulações são compuitacionalmente intensivas;
+  
+  4.  C++ possui diversas bibliotecas para computação algébrica, entre elas destaca-se a biblioteca [**Armadillo**](http://arma.sourceforge.net/);
+  
+  5. C++ comunica-se facilmente com a [**linguagem R**](https://www.r-project.org/), linguagem esta apresentada na disciplina de **Programação Estatística II**. Para isso, utiliza-se da biblioteca [**Rcpp**](htww.rcpp.org/) implementada pelo [**Dirk Eddelbuettel**](http://dirk.eddelbuettel.com/) e outros programadores. R é uma linguagem de programação amplamente utilizada por estatísticos em todo o mundo, em empresas e no meio acadêmico. Programar em R abre muitas oportunidades para o estatístico;
+  
+  6. Diversas vagas de emprego solicitam do estatístico conhecimentos em R e C++.
+  
+  
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+class: center, middle
+
+# C++ é uma linguagem de propósito geral
+  
+C++ é uma linguagem de programação de porósito geral (**general purpose**), logo poderá ser utilizada nos mais variados fins, como programação de sistemas operacionais, construção de interfaces gráficas, desenvolvimento de novas linguagens de programação, computação científica, robótica, etc.
+  
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Um breve histórico da linguagem C++
 
 
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Breve histórico
+
+</br>
+
+--
+
+.pull-left[
+
+A linguagem de programação C++ (**pronuncia-se "C mais mais"** ou no inglês **C plus plus**) é uma linguagem de programação de propósito geral e multiparadigma surgida em 1979 e padronizada em 1998.
+
+
+
+C++ foi desenvolvida pelo cientista da computação dinamarquês [**Bjarne Stroustrup**](https://pt.wikipedia.org/wiki/Bjarne_Stroustrup), professor da universidade do Texas A&M.
+
+
+
+A linguagem C++ foi inicialmente pensada como um extensão da linguagem de programação C e era chamada de **C com Classes**, algo como um superconjunto de C.
+]
+
+.fadeInLeft.animated[
+```{r, echo=FALSE,out.width="250px", out.height="250px",fig.cap="",fig.show='hold',fig.align='right'}
+knitr::include_graphics("img/cpp_logo.png")
+```
+]
+
+---
+background-image: url("img/bjarne_stroustrup.jpg")
+background-size: cover
+class: inverse
+
+</br>
+</br>
+</br>
+</br>
+
+.fadeInLeft.animated[
+.pull-left[
+.font150[Bejarne Stroustrup, criador da linguagem de programação C++.]
+]
+]
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# C++ é uma linguagem compilada
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Compilador
+
+--
+
+.font150[O que é um compilador?]
+
+--
+
+.content-box-purple[
+Um compilador é um programa de computador ou mesmo um grupo de programas que é responsável por traduzir um código fonte escrito em uma linguagem compilada à um programa
+equivalente do ponto de vista semântico.
+]
+
+</br>
+</br>
+--
+
+.fadeInLeft.animated[
+.font110[O compilador traduz o código fonte de uma linguagem de programação de médio/alto nível para uma linguagem de programação de baixo nível (a exemplo da linguagem Assembly ou código de máquina).]
+]
 
 
 ---
