@@ -467,6 +467,97 @@ knitr::include_graphics("img/codigo_binario.png")
 ```
 ]]
 
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Compilador
+
+--
+
+Alguns autores citam linguagens compiladas em que a tradução do código gera código em **C**.
+
+--
+
+### Maiores detalhes na referência abaixo
+
+.content-box-purple[
+Cooper, Torczon. Engineering a Compiler (em inglês). San Francisco: Morgan Kaufmann, 2003. p. 2. ISBN 1-55860-698-X.
+]
+
+--
+</br>
+Porém, de uma forma geral, entenda que um compilador traduz o código fonte de uma linguagem de programação de médio/alto nível para uma linguagem de programação de baixo nível (a exemplo da linguagem **Assembly** ou código de máquina).
+
+Entenda a linguagem **Assembly** como uma notação legível de código de máquina (código binário entendível pela CPU). A tradução do código **Assembly** para o código de máquina é feita pelo **montador** ou **assembler**.
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Compilador
+
+.font150[Esquema simplificado do funcionamento de um compilador]
+
+--
+.content-box-purple[
+.fadeInLeft.animated[
+```{r, echo=FALSE,out.width="600px", out.height="350px",fig.cap="Diagrama simplificado do funcionamento de um compilador.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/diagrama_compilador.png")
+```
+]]
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Compilador
+
+**Entendendo o diagrama anterior**
+
+--
+
+  + **Source File / Arquivo Fonte / Código Fonte**: É o código de programação escrito em uma linguagem compilada. No nosso caso, trata-se de um código escrito na linguagem C++. Nesse caso, o arquivo tem extenção **.cpp**;
+
+  + **Assembler / Montador**: Alguns compiladores em seu processo intermediário de compilação traduz o código fonte para assembly e é o **assembler** o responsável por traduzir o código assembly para um **código objeto**;
+
+  + **Object File / Arquivo Objeto / Código Objeto**: É a saída de um processo de compilação e trata-se de uma parte do código de máquina que ainda não foi vinculado em um programa completo por meio de um **linker**. No sistema operacional Windows esse arquivo normalmente tem a extensão **.obj** e **.o** nos sistemas baseados em Linux/Unix;
+
+  + **Executable File / Arquivo Executável**: É o código de máquina que poderá ser executado pela CPU. No sistema operacional Windows normalmente esse arquivo tem a extensão **.exe**;
+  
+  + **Program Library / Bibliotecas**: São outros programas que desejamos vincular ao nosso. Muitas vezes desejamos utilizar funcionalidades escritas anteriormente por nós ou outros programadores;
+  
+  + **Linker**: É um programa responsável por linkar todos os arquivos objetos. Isso inclui os arquivos objetos do nosso programa bem como os arquivos objetos das bibliotecas que desejamos importar.
+  
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Compilador
+
+.pull-left[
+
+primeiro compilador foi escrito por Grace Hopper no ano de 1952 para a linguagem de programação **A-0**.
+
+Grace Hopper foi analista de sistemas da Marinha dos Estados Unidos. Ela também criou o primeiro compilador para a linguagem **COBOL**.
+			
+			
+**Curiosidade**: É atribuído à Grace Hopper o termo .font130[**bug**] utilizado para designar uma falha no código fonte. 
+]
+
+--
+
+.pull-right[
+.fadeInLeft.animated[
+```{r, echo=FALSE,out.width="320px", out.height="400px",fig.cap="Diagrama simplificado do funcionamento de um compilador.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/Grace_Hopper.jpg")
+```
+]]
+
 
 ---
 background-image: url("img/logo-branca.png")
