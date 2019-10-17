@@ -99,19 +99,32 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-### Acesse o SIGAA com frequência
+# Acesse o SIGAA com frequência
 
 --
+
+.pull-left[
+
 
 Todo o plano de curso da disciplina encontra-se registrado no SIGAA. 
 
---
+</br>
 
 Tudo o que for de relevante para o curso será registrado no SIGAA. Dessa forma, é de total responsabilidade do aluno(a) se manter atualizado sobre tudo aquilo que for registrado no sistema.
 
---
+</br>
 
 As datas de todas as avaliações já encontram-se registrada no SIGAA mas poderão sofrer alterações. Dessa forma, acesse essa disciplina no SIGAA ao menos duas vezes por semana para se manter atualizado.
+]
+
+--
+
+.fadeInLeft.animated[
+.pull-right[
+```{r, echo=FALSE,out.width="450px", out.height="450px",fig.cap="",fig.show='hold',fig.align='left'}
+knitr::include_graphics("img/acesso_sigaa.gif")
+```
+]]
 
 
 ---
@@ -127,11 +140,64 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-# Acesse preriodicamente o SIGAA
+# Programação Estatística I
+
+A disciplina de **Programação Aplicada à Estatística** que será denominada de **Programação Estatística I** na nova reformulação do Projeto Pedagógico do Curso - PPC do Bacharelado em Estatística da UFPB tem como objetivos:
+
+--
+
+</br>
 
 
+  - Desenvolver o aluno na capacidade de raciocínio em lógica de programação;
+  
+</br>  
 
-### 
+--
+  
+  - Introduzir o contato do aluno com as principais estruturas de programação que serão úteis na disciplina de **Programação Estatística II** (**Programação em linguagem R**);
+  
+</br>  
+
+--
+  
+  - Introduzir o aluno na linguagem de programação [**C++**](https://pt.wikipedia.org/wiki/C%2B%2B).
+
+
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Reposição de prova
+ 
+
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Reposição
+
+--
+
+`r icon::fa("gavel", animate = "spin", size = 3)` 
+
+</br>
+
+
+.fonte150[O aluno terá direto a apenas uma reposição de uma das avaliações desde que satisfeito o que rege a [**Resolução  Nº 16/2015**](http://www.prg.ufpb.br/prg/codesc/documentos/legislacao/rsep16_2015.pdf/@@download/file/Rsep16_2015.pdf) do CONSEPE que aprova o Regulamento dos Cursos Regulares de Graduação da UFPB.]
+
+</br>
+
+.fonte150[O aluno poderá repor uma prova desde que entre com pedido de reposição junto à coordenação do seu curso. O coordenador de seu curso irá avaliar o pedido de reposição com base na [**Resolução**](http://www.prg.ufpb.br/prg/codesc/documentos/legislacao/rsep16_2015.pdf/@@download/file/Rsep16_2015.pdf) do CONSEPE e encaminhará o pedido julgado ao Departamento de Estatística - UFPB.
+]
+
+</br>
+
+.fonte150[Apenas irá repor a prova quem atender os requisitos do **Art. 92, § 6**. Sendo assim, qualquer outro motivo não previsto na resolução não será aceito. Dessa forma, não insista!]
+
 
 ---
 background-image: url("img/logo-branca.png")
