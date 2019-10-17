@@ -198,6 +198,78 @@ background-position: 100% 0%
 
 .fonte150[Apenas irá repor a prova quem atender os requisitos do **Art. 92, § 6**. Sendo assim, qualquer outro motivo não previsto na resolução não será aceito. Dessa forma, não insista!]
 
+---
+background-size: 100px
+background-position: 100% 0%
+class: middle, center, inverse
+
+# Porque aprender à programar? Qual a importância para minha carreira como estatístico?
+
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Motivos para programar
+
+### Alguns bons motivos:
+
+</br>
+
+--
+
+Não dá para analisar dados apenas com o uso de lápis, papel e borracha;
+
+--
+
+</br>
+
+
+Programação dá a liberdade para que você seja criativo;
+
+--
+
+</br>
+
+Você não ficará preso a técnicas e mecanismos de solução de problemas criados por outras pessoas. Programando você poderá adptar uma solução às necessidades de uma empresa;
+
+--
+
+</br>
+
+.tada.animated[Você necessita aprender a programar, uma vez que o conhecimento de programação será explorado em outras disciplinas no decorrer do curso, como por exemplo, na disciplina de **Estatística Computacional** no quinto período. **Nessa disicplina o professor irá assumir que você sabe programar!**]
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Principal Motivo
+
+.pull-left[
+<blockquote>
+O estatístico dominando a teoria e sabendo programar bem tem tudo para não ser mais um desempregado no Brasil.
+</blockquote>
+.right[-- <cite>**Autor Desconhecido**</cite>]
+]
+
+.pull-right[
+```{r, echo=FALSE,out.width="420px", out.height="180px",fig.cap="Amém Igreja?",fig.show='hold',fig.align='right'}
+knitr::include_graphics("img/amem.gif")
+```
+]
+
+.pull-left[
+.fadeInLeft.animated[
+```{r, echo=FALSE,out.width="350px", out.height="230px",fig.cap="Louvemos .. ",fig.show='hold',fig.align='left'}
+knitr::include_graphics("img/igreja_louvor.gif")
+```
+]]
+
+
+
+
 
 ---
 background-image: url("img/logo-branca.png")
