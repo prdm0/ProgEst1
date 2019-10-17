@@ -264,6 +264,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .content-box { 
     box-sizing: border-box;
     background-color: #e2e2e2;
+    font-weight: bold
 }
 .content-box-blue,
 .content-box-gray,
