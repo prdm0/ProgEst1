@@ -283,7 +283,7 @@ background-position: 100% 0%
 
 --
 
-.font150[**Abaixo elenco alguns motivos para você programar em C++:**]
+.font150[Abaixo elenco alguns motivos para você programar em C++:]
 
 </br>
 
